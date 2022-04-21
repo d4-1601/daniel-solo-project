@@ -1,0 +1,132 @@
+{
+  "features" : [ {
+    "geometry" : {
+      "coordinates" : [ -1.8077463999999999, 52.5580637 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Farmers Cl, Sutton Coldfield B76 1DX, UK",
+      "name" : "Home"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -46.6591366, -23.603454799999998 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Al. dos Jurupis, 452 - Moema, São Paulo, 04088-001, Brazil",
+      "name" : "Work"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.9038199, 52.4813853 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "9 Margaret St, Birmingham B3 3BS, UK",
+      "name" : "Birmingham college"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 14.51643, 35.887618599999996 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Kavall Apartments, 1 Triq Il - Ponta, Senglea, Malta",
+      "name" : "Malta flat"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -2.1243944, 52.806019799999994 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Peel St, Stafford ST16 2DZ, UK",
+      "name" : "Joao & may & nina"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 2.3577041, 48.8641623 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "7 Rue des Vertus, 75003 Paris, France",
+      "name" : "2019 Paris Leo & Rafa"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7287696, 52.4462453 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Jetstream Rd, United Kingdom",
+      "name" : "JLR airport car park"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7648825, 52.521241499999995 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "DHL Jaguar Land Rover Midpoint site, Minworth, Sutton Coldfield, United Kingdom",
+      "name" : "DHL JLR midpoint"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.258567, 52.382435799999996 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Rugby CV21 1HZ, UK",
+      "name" : "Emilis & Vera"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -3.6923198999999998, 40.4064397 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "Calle de Méndez Álvaro, 12, 28045 Madrid, Spain",
+      "name" : "Airbnb Madrid"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ 14.2571049, 36.075275 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "address" : "1 Triq Is-Salini, Iż-Żebbuġ, Malta",
+      "name" : "Malta-Gozo Airbnb"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.8972022, 52.481275 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "name" : "Natwest da bruna"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7575569999999998, 52.437653 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "name" : "JLR Gate D1"
+    },
+    "type" : "Feature"
+  } ],
+  "type" : "FeatureCollection"
+}

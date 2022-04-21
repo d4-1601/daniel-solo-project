@@ -1,0 +1,230 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [ {
+    "geometry" : {
+      "coordinates" : [ 14.5164300, 35.8876186 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=13912941724091428661",
+      "Location" : {
+        "Address" : "1 Triq Il - Ponta, L-Isla, Malta",
+        "Business Name" : "Kavall Apartments",
+        "Country Code" : "MT",
+        "Geo Coordinates" : {
+          "Latitude" : "35.8876186",
+          "Longitude" : "14.5164300"
+        }
+      },
+      "Published" : "2019-06-20T18:18:16Z",
+      "Title" : "Kavall Apartments",
+      "Updated" : "2019-06-20T18:18:16Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7647726, 52.5212520 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=6733178688385105209",
+      "Location" : {
+        "Address" : "Minworth, Sutton Coldfield B76 9EH, United Kingdom",
+        "Business Name" : "DHL Automotive - Midpoint",
+        "Geo Coordinates" : {
+          "Latitude" : "52.5212520",
+          "Longitude" : "-1.7647726"
+        }
+      },
+      "Published" : "2018-07-31T06:49:21Z",
+      "Title" : "DHL Jaguar Land Rover Midpoint site",
+      "Updated" : "2018-07-31T06:49:21Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7711159, 52.5250777 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Minworth,+Sutton+Coldfield+B76+9EH&ftid=0x4870affb5c0a3fbf:0xc8a17f744e048d7",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "52.5250777",
+          "Longitude" : "-1.7711159"
+        }
+      },
+      "Published" : "2018-07-30T09:53:38Z",
+      "Title" : "B76 9EH, Minworth, Sutton Coldfield",
+      "Updated" : "2018-07-30T09:53:38Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7575570, 52.4376530 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=52.437653,-1.7575569999999998",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "52.4376530",
+          "Longitude" : "-1.7575570"
+        }
+      },
+      "Published" : "2018-07-30T06:27:38Z",
+      "Title" : "52.437653,-1.7575569999999998",
+      "Updated" : "2018-07-30T06:27:38Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7287696, 52.4462453 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Jetstream+Rd&ftid=0x4870b0d86be9f65b:0x244bc90daf5fbe30",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "52.4462453",
+          "Longitude" : "-1.7287696"
+        }
+      },
+      "Published" : "2018-07-19T20:33:00Z",
+      "Title" : "Jetstream Rd",
+      "Updated" : "2018-07-19T20:33:00Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.7797442, 52.4346155 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=10123930977222370392",
+      "Location" : {
+        "Address" : "Lode Ln, Solihull B92 8NW, United Kingdom",
+        "Business Name" : "Jaguar Land Rover Solihull",
+        "Geo Coordinates" : {
+          "Latitude" : "52.4346155",
+          "Longitude" : "-1.7797442"
+        }
+      },
+      "Published" : "2018-07-17T05:33:42Z",
+      "Title" : "Jaguar Land Rover Solihull",
+      "Updated" : "2018-07-17T05:33:42Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -2.3586004, 51.3794881 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Philip+St,+Bath+BA1+1JS&ftid=0x48718111a09ba279:0x3168f4c616d75442",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "51.3794881",
+          "Longitude" : "-2.3586004"
+        }
+      },
+      "Published" : "2016-12-27T14:33:40Z",
+      "Title" : "Philip Street, Bath BA1 1JS, UK",
+      "Updated" : "2016-12-27T14:33:40Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.8972023, 52.4812749 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=52.4812749584635,-1.8972022086381912",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "52.4812749",
+          "Longitude" : "-1.8972023"
+        }
+      },
+      "Published" : "2016-11-19T11:46:26Z",
+      "Title" : "52.4812749584635,-1.8972022086381912",
+      "Updated" : "2016-11-19T11:46:26Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.8819154, 52.4744143 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?cid=11043446098739922413",
+      "Location" : {
+        "Address" : "162-164 High St, Bordesley, Birmingham B12 0LD, United Kingdom",
+        "Business Name" : "Edskills Language School",
+        "Country Code" : "GB",
+        "Geo Coordinates" : {
+          "Latitude" : "52.4744143",
+          "Longitude" : "-1.8819154"
+        }
+      },
+      "Published" : "2016-11-17T14:21:42Z",
+      "Title" : "EDSkills",
+      "Updated" : "2016-11-17T14:21:42Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -1.9038199, 52.4813853 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=9+Margaret+St,+Birmingham+B3+3BS&ftid=0x4870bc8ce4683ae7:0xddeb157c97df1d6a",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "52.4813853",
+          "Longitude" : "-1.9038199"
+        }
+      },
+      "Published" : "2016-11-17T14:18:21Z",
+      "Title" : "9 Margaret Street, Birmingham B3 3BS, Reino Unido",
+      "Updated" : "2016-11-17T14:18:21Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -46.9156063, -23.1690614 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=Av. Olívio Roncoleta, 465 - Vila Hortolândia, Jundiaí - SP, 13214-306&ftid=0x94cf25c3ab846045:0xcf2ed2e0b0c34108",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "-23.1690614",
+          "Longitude" : "-46.9156063"
+        }
+      },
+      "Published" : "2014-12-31T10:51:52Z",
+      "Title" : "Avenida Olívio Roncoleta, 465 - Vila Hortolândia, SP, 13214-306",
+      "Updated" : "2014-12-31T10:51:52Z"
+    },
+    "type" : "Feature"
+  }, {
+    "geometry" : {
+      "coordinates" : [ -46.9091366, -23.1796468 ],
+      "type" : "Point"
+    },
+    "properties" : {
+      "Google Maps URL" : "http://maps.google.com/?q=R. Aderbal da Costa Moreira, 140 - Retiro, Jundiaí - SP, 13209-550&ftid=0x94cf25d3e778d081:0xa4ecf459babaf428",
+      "Location" : {
+        "Geo Coordinates" : {
+          "Latitude" : "-23.1796468",
+          "Longitude" : "-46.9091366"
+        }
+      },
+      "Published" : "2014-12-30T22:38:47Z",
+      "Title" : "Rua Aderbal da Costa Moreira, 140 - Retiro, SP, 13209-550",
+      "Updated" : "2014-12-30T22:38:47Z"
+    },
+    "type" : "Feature"
+  } ]
+}

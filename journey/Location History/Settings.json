@@ -1,0 +1,39 @@
+{
+  "createdTime": "2017-04-16T11:33:28.712Z",
+  "modifiedTime": "2022-03-16T10:49:21.112Z",
+  "historyEnabled": true,
+  "historyDeletionTime": "2022-04-20T12:21:33.819Z",
+  "deviceSettings": [{
+    "deviceTag": -2089474013,
+    "reportingEnabled": true,
+    "legalCountryCode": "gb",
+    "devicePrettyName": "iPhone dsousa",
+    "platformType": "IOS",
+    "deviceCreationTime": "2021-05-14T13:18:44.936Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2022-03-16T10:49:21.112Z"
+    },
+    "iosVersion": "15.3.1",
+    "deviceSpec": {
+      "device": "iPhone13,1"
+    }
+  }, {
+    "deviceTag": -1012305130,
+    "reportingEnabled": false,
+    "legalCountryCode": "br",
+    "devicePrettyName": "iPhone dsousa",
+    "iosDeviceRestriction": "NO_RESTRICTION",
+    "platformType": "IOS",
+    "deviceCreationTime": "2017-04-16T11:33:28.712Z",
+    "iosVersion": "12.5.3",
+    "deviceSpec": {
+      "device": "iPhone6,2"
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2022-03-13T10:08:03.174Z"
+  },
+  "retentionWindowDays": 540,
+  "hasReportedLocations": true,
+  "hasSetRetention": false
+}
