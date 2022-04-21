@@ -5,9 +5,9 @@ const EmissionsModel = require('../models/model.js');
 const postEmissions = async (req, res) => {
   //the new object
   const newData = {
-    accountName: req.body.accountName,
-    accountEmail: req.body.accountEmail,
-    accountPassword: req.body.accountPassword,
+    // accountName: req.body.accountName,
+    // accountEmail: req.body.accountEmail,
+    // accountPassword: req.body.accountPassword,
     people: req.body.people,
     country: req.body.country,
     electricity: req.body.electricity,
