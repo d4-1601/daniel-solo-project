@@ -8,3 +8,13 @@ export function getUserEmissions() {
     .then((res) => res.json())
     .catch(e => console.log(e));
 }
+
+export function postEmissions(formData) {
+  return fetch(myUrl, {
+    method: 'POST',
+    headers: {'Content-type': 'application/json'},
+    body: JSON.stringify(formData)
+  })
+  .then(res => res.json())
+  .catch(e => console.log(e));
+}

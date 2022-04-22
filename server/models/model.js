@@ -12,6 +12,7 @@ const co2Schema = new mongoose.Schema({
   country: String,
   electricity: String,
   naturalGas: String,
+  food: String,
   // googlemaps mock - not yet in use because the info from mock
   // car: Number,
   // publicTransport: Number,

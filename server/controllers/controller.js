@@ -11,7 +11,8 @@ const postEmissions = async (req, res) => {
     people: req.body.people,
     country: req.body.country,
     electricity: req.body.electricity,
-    naturalGas: req.body.naturalGas
+    naturalGas: req.body.naturalGas,
+    food: req.body.food
   };
 
   try {

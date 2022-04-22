@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { postEmissions } from '../../service';
 
 import './formStyle.css';
 
@@ -36,7 +37,7 @@ export function UserForm({ setCardsList }) {
     const newCard = {people, country, electricity, naturalGas, food};
     console.log('Print Test of form: ', newCard);//printing all form inputs as string
     // console.log('This is the type of people', typeof(newCard.people));//converted to number on line 10
-
+    postEmissions(newCard);
   }
   return (
     <>
