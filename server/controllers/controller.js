@@ -12,7 +12,9 @@ const postEmissions = async (req, res) => {
     country: req.body.country,
     electricity: req.body.electricity,
     naturalGas: req.body.naturalGas,
-    food: req.body.food
+    foodForecast: req.body.foodForecast,
+    electricityForecast: req.body.electricityForecast,
+    gasForecast: req.body.gasForecast
   };
 
   try {

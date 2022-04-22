@@ -1,0 +1,9 @@
+.layout-container {
+  background-color: rgb(174, 186, 163, 1);
+  /* background-color: black; */
+}
+
+.profile-container {
+  height: 300px;
+  /* border: 2px solid yellow; */
+}

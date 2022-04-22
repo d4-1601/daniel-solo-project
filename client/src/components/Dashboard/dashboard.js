@@ -1,4 +1,5 @@
 import React, {useState, useEffect } from 'react'
+import './dashboardStyle.css';
 
 import { getUserEmissions } from '../../service';
 import { UserForm } from '../Form/userForm';
@@ -18,7 +19,9 @@ export function Dashboard() {
     <>
       <div>dashboard</div>
       <div className='layout-container'>
-        <UserForm setCardsList={setCardsList}></UserForm>
+        <div className='profile-container'>
+          <UserForm setCardsList={setCardsList}></UserForm>
+        </div>
       </div>
 
     </>

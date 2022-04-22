@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@200;400&display=swap');
+
+.form-title{
+  /* border: 2px solid black; */
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(84, 86, 81, 1);
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+
+.formForecast-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.form-container {
+  /* background-color: white; */
+  border-radius: 20px;
+  /* border: 3px solid red; */
+}
+.field-group {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  font-family: 'Public Sans', sans-serif;
+  color: rgb(84, 86, 81, 1);
+}
+.field-group select{
+  border: none;
+  border-bottom: 2px solid rgb(84, 86, 81, 1);
+  color: black;
+  font-weight: bold;
+  padding: 1px 10px;
+}
+.field-group input[type=number] {
+  border: none;
+  border-bottom: 2px solid rgb(84, 86, 81, 1);
+  color: black;
+  font-weight: bold;
+}
+
+.field-button {
+  text-align: right;
+}
+.form-container button{
+  cursor: pointer;
+  border: none;
+  background-color: rgb(84, 86, 81, 1);
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  color: white;
+  font-family: 'Public Sans', sans-serif;
+  transition-duration: 0.4s;
+}
+.form-container button:hover {
+  background-color: #2b3a2c;
+}
+
+.forecast-container {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  font-family: 'Public Sans', sans-serif;
+  color: rgb(84, 86, 81, 1);
+  height: 214px;
+}
