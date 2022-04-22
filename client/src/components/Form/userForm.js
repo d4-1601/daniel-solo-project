@@ -30,9 +30,10 @@ export function UserForm({ setCardsList }) {
     const country = ev.target.userCountry.value;
     const electricity = ev.target.userElectricity.value;
     const naturalGas = ev.target.userGas.value;
+    const food = foodForecast.toString();
 
     //new obj from form
-    const newCard = {people, country, electricity, naturalGas};
+    const newCard = {people, country, electricity, naturalGas, food};
     console.log('Print Test of form: ', newCard);//printing all form inputs as string
     // console.log('This is the type of people', typeof(newCard.people));//converted to number on line 10
 
