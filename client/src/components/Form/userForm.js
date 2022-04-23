@@ -14,7 +14,7 @@ export function UserForm({ setCardsList }) {
     Peru: 2.036,
     Usa: 4.700
   };
-  //Show output figures
+  //Output figures--displayed on child component
   const [qPeople, setQPeople] = useState (0);
   const [qCountry, setQCountry] = useState ('');
   let foodForecast = (Math.round(foodDiet[qCountry] * qPeople * 30)).toString(); //daily food figure per person* #people* 30 days per month

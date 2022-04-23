@@ -1,5 +1,4 @@
 import React from 'react'
-import './outputStyle.css';
 
 export function FormOutput(props) {
   return (

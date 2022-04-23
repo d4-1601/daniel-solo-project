@@ -19,6 +19,11 @@ export function Dashboard() {
     <>
       <div>dashboard</div>
       <div className='layout-container'>
+        <ul className='header-navbar'>
+          <li><a href="/">Home</a></li>
+          <li><a href="/profile">Profile</a></li>
+          <li><a href="/neutralize">Become Carbon Neutral</a></li>
+        </ul>
         <div className='profile-container'>
           <UserForm setCardsList={setCardsList}></UserForm>
         </div>
