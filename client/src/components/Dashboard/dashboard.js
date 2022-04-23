@@ -27,7 +27,7 @@ export function Dashboard() {
         <div className='layout-container'>
           <div className='navbar-container'>
             <div className='brand-container'>
-              <NavLink to='/'>
+              <NavLink to='/' style={{ textDecoration: 'none' }}>
                 {/* <h1 className='appTitle'>Ec</h1> */}
                 <span className='appTitle'>Ec</span>
                 <img className='appBrand' src={treeSvg} alt=''></img>
@@ -35,9 +35,9 @@ export function Dashboard() {
             </div>
             <div className='nav-settings'>
               <ul className='header-navbar'>
-                <li><NavLink to="/">Home</NavLink></li>
-                <li><NavLink to="/profile">Profile</NavLink></li>
-                <li><NavLink to="/neutralize">Become Carbon Neutral</NavLink></li>
+                <li><NavLink to="/" style={{ textDecoration: 'none' }}>Home</NavLink></li>
+                <li><NavLink to="/profile" style={{ textDecoration: 'none' }}>Profile</NavLink></li>
+                <li><NavLink to="/neutralize" style={{ textDecoration: 'none' }}>Become Carbon Neutral</NavLink></li>
               </ul>
             </div>
           </div>
