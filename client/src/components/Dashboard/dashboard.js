@@ -6,6 +6,7 @@ import { getUserEmissions } from '../../service';
 import { UserForm } from '../Form/userForm';
 import { HomePg } from '../HomePage/homePg';
 import { NeutralizePg } from '../NeutralizePage/neutralizePg';
+import treeSvg from '../../Utils/tree-svg.svg';
 
 export function Dashboard() {
 
@@ -24,11 +25,22 @@ export function Dashboard() {
       {/* <HashRouter>*/}
         <div>dashboard</div>
         <div className='layout-container'>
-          <ul className='header-navbar'>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/profile">Profile</NavLink></li>
-            <li><NavLink to="/neutralize">Become Carbon Neutral</NavLink></li>
-          </ul>
+          <div className='navbar-container'>
+            <div className='brand-container'>
+              <NavLink to='/'>
+                {/* <h1 className='appTitle'>Ec</h1> */}
+                <span className='appTitle'>Ec</span>
+                <img className='appBrand' src={treeSvg} alt=''></img>
+              </NavLink>
+            </div>
+            <div className='nav-settings'>
+              <ul className='header-navbar'>
+                <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/profile">Profile</NavLink></li>
+                <li><NavLink to="/neutralize">Become Carbon Neutral</NavLink></li>
+              </ul>
+            </div>
+          </div>
           <div className='content-container'>
             <Routes>
               <Route path='/' element={<HomePg />} />
