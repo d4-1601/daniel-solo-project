@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { postEmissions } from '../../service';
 
 import './formStyle.css';
+import { postEmissions } from '../../service';
+import { FormOutput } from '../FormCalcs/formOutput';
 
 export function UserForm({ setCardsList }) {
 
@@ -93,10 +94,7 @@ export function UserForm({ setCardsList }) {
           </form>
         </div>
         <div className='forecast-container'>
-          <h3>Carbon Emissions Forecast</h3><br></br>
-          <p>Food diet: {foodForecast} KgCO2/Month</p>
-          <p>Electricity: {electricityForecast} KgCO2/Month</p>
-          <p>Gas: {gasForecast} KgCO2/Month</p>
+          <FormOutput foodForecast={foodForecast} electricityForecast={electricityForecast} gasForecast={gasForecast}></FormOutput>
         </div>
       </div>
     </>
