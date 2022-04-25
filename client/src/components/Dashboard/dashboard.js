@@ -23,7 +23,6 @@ export function Dashboard() {
     <>
       <BrowserRouter>
       {/* <HashRouter>*/}
-        <div>dashboard</div>
         <div className='layout-container'>
           <div className='navbar-container'>
             <div className='brand-container'>
@@ -47,6 +46,11 @@ export function Dashboard() {
               <Route path='/profile' element={<UserForm setCardsList={setCardsList} />} />
               <Route path='/neutralize' element={<NeutralizePg />} />
             </Routes>
+          </div>
+          <div className='footer-content'>
+            <div className='footer-brand'>
+              <img className='appBrand' src={treeSvg} alt=''></img>
+            </div>
           </div>
         </div>
       {/* </HashRouter> */}
