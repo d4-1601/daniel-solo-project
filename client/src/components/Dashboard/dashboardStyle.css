@@ -16,7 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 65px;
   box-sizing: border-box;
   /* border: 1px solid yellow; */
 }
@@ -26,20 +26,22 @@
   display: flex;
   flex-direction: row;
   width: 150px;
-  margin-left: 6rem;
+  margin-left: 2rem;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
 .appTitle {
   font-family: 'Nanum Pen Script', cursive;
   font-size: 85px;
   color: rgb(132, 179, 64);
-
+  letter-spacing: 2px;
 }
 .appBrand {
   /* position: absolute; */
-  padding: 5px;
-  width: 40px;
-  margin-bottom: 8px;
+  padding: 0px;
+  width: 32px;
+  margin-bottom: 11px;
+  border: 4px solid rgb(132, 179, 64);
+  border-radius: 50%;
 }
 
 .nav-settings {
@@ -77,4 +79,11 @@ ul.header-navbar li {
   position: fixed;
   bottom: 0;
   right: 20px;
+}
+
+.appFooterBrand {
+  /* position: absolute; */
+  padding: 3px;
+  width: 40px;
+  margin-bottom: 8px;
 }

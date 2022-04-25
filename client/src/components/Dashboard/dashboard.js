@@ -49,7 +49,7 @@ export function Dashboard() {
           </div>
           <div className='footer-content'>
             <div className='footer-brand'>
-              <img className='appBrand' src={treeSvg} alt=''></img>
+              <img className='appFooterBrand' src={treeSvg} alt=''></img>
             </div>
           </div>
         </div>
