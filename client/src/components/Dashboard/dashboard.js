@@ -44,7 +44,7 @@ export function Dashboard() {
             <Routes>
               <Route path='/' element={<HomePg />} />
               <Route path='/profile' element={<UserForm setCardsList={setCardsList} />} />
-              <Route path='/neutralize' element={<NeutralizePg />} />
+              <Route path='/neutralize' element={<NeutralizePg cardsList={cardsList}/>} />
             </Routes>
           </div>
           <div className='footer-content'>
