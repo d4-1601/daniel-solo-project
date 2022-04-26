@@ -26,10 +26,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  float: right;
+  float: none;
   gap: 10px;
   margin-top: 40px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
   color: rgb(84, 86, 81);
   font-family: 'Public Sans', sans-serif;
   font-weight: lighter;
@@ -50,18 +50,70 @@
 }
 
 
-
-
-
-/* .right-container {
-  flex: 1;
-  background-color: white;
-  border-radius: 10px;
-  padding: 5px;
-  margin-bottom: 5px;
-  width: 500px;
-  height: 300px;
-  position: relative;
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: none;
+  gap: 10px;
+  margin-top: 40px;
+  /* margin-right: 10px; */
+  /* color: rgb(84, 86, 81); */
+  color: black;
   font-family: 'Public Sans', sans-serif;
-  color: rgb(84, 86, 81, 1);
-} */
+  font-weight: lighter;
+}
+
+.logoTitle-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.logo-box {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Outfit:wght@300;400;600&family=Poppins:wght@400;500;600;700&display=swap');
+.appTitleLogo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 85px;
+  color: rgb(132, 179, 64);
+  letter-spacing: 2px;
+  height: 85px;
+}
+.appBrandLogo {
+  padding: 0px;
+  width: 32px;
+  margin-top: 33px;
+  border: 4px solid rgb(132, 179, 64);
+  border-radius: 50%;
+  height: 33px;
+}
+.welcomeTitle {
+  color: rgb(84, 86, 81);
+  font-family: 'Public Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.aboutEnvironment-box {
+  color: rgb(84, 86, 81);
+  font-family: 'Public Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+
+}
+.first-paragraph {
+  text-align: center;
+}
+.second-paragraph  {
+  text-align: center;
+  text-decoration: underline;
+}
+.question {
+  font-weight: bold;
+  padding-bottom: 3px;
+}

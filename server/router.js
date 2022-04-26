@@ -1,6 +1,6 @@
 //main requirements
 const Express = require('express');
-const { postEmissions, getUserInfo } = require('./controllers/controller.js');
+const { postEmissions, getUserInfo, postOffsetProject, getOffsetProject } = require('./controllers/controller.js');
 
 const router = Express.Router();
 
@@ -8,6 +8,9 @@ const router = Express.Router();
 // router.get('/:id/tracker', getUserInfo);
 router.get('/profile', getUserInfo);
 router.post('/profile', postEmissions);
+
+router.get('/offsetting', getOffsetProject);
+router.post('/offsetting', postOffsetProject);
 
 //exporting router
 module.exports = router;
