@@ -1,8 +1,8 @@
 import React, {useState, useEffect } from 'react'
 import './dashboardStyle.css';
-import { BrowserRouter, HashRouter, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter, /*HashRouter,*/ Routes, Route, NavLink } from 'react-router-dom';
 
-import { getUserEmissions } from '../../service';
+import { getUserEmissions, getOffsetProjects } from '../../service';
 import { UserForm } from '../Form/userForm';
 import { HomePg } from '../HomePage/homePg';
 import { NeutralizePg } from '../NeutralizePage/neutralizePg';
@@ -11,13 +11,21 @@ import treeSvg from '../../Utils/tree-svg.svg';
 export function Dashboard() {
 
   const [cardsList, setCardsList] = useState([]);
+  const [projectsList, setProjectsList] = useState([]);
 
   useEffect(() => {
     getUserEmissions().then((data) => {
-      console.log(data);
+      console.log('userInfo', data);
       setCardsList(data)
     })
-  }, [])
+  }, []);
+
+  useEffect(() => {
+    getOffsetProjects().then((data) => {
+      console.log('offsetProjectInfo', data);
+      setProjectsList(data)
+    })
+  }, []);
 
   return (
     <>
@@ -44,7 +52,7 @@ export function Dashboard() {
             <Routes>
               <Route path='/' element={<HomePg />} />
               <Route path='/profile' element={<UserForm setCardsList={setCardsList} />} />
-              <Route path='/neutralize' element={<NeutralizePg cardsList={cardsList}/>} />
+              <Route path='/neutralize' element={<NeutralizePg cardsList={cardsList} projectsList={projectsList}/>} />
             </Routes>
           </div>
           <div className='footer-content'>

@@ -2,8 +2,9 @@ import React from 'react';
 
 import './neutralizeStyle.css';
 import { MonthItem } from './monthItem.js';
+import { ProjectItem } from './projectItem.js';
 
-export function NeutralizePg({ cardsList }) {
+export function NeutralizePg({ cardsList, projectsList }) {
   return (
     <div className='offsetContent-container'>
       <div className='offsetOptions-container'>

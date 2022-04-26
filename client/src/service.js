@@ -1,5 +1,6 @@
 //server url
 const myUrl= 'http://127.0.0.1:3005/profile';
+const offsetUrl= 'http://127.0.0.1:3005/offsetting';
 
 export function getUserEmissions() {
   return fetch(myUrl, {
@@ -17,4 +18,12 @@ export function postEmissions(formData) {
   })
   .then(res => res.json())
   .catch(e => console.log(e));
+}
+
+export function getOffsetProjects() {
+  return fetch(offsetUrl, {
+    method: 'GET',
+  })
+    .then((res) => res.json())
+    .catch(e => console.log(e));
 }

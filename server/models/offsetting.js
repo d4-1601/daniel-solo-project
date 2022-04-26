@@ -7,7 +7,8 @@ const offsettingSchema = new mongoose.Schema({
   country: String,
   nameFlag: String,
   startingPrice: String,
-  treeSpecies: String
+  treeSpecies: String,
+  imgUrl: String
 }, {timestamps: true});
 
 //model creation

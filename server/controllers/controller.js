@@ -42,7 +42,8 @@ const postOffsetProject = async (req, res) => {
     country: req.body.country,
     nameFlag: req.body.nameFlag,
     startingPrice: req.body.startingPrice,
-    treeSpecies: req.body.treeSpecies
+    treeSpecies: req.body.treeSpecies,
+    imgUrl: req.body.imgUrl
   };
 
   try {
