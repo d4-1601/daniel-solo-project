@@ -12,7 +12,7 @@ export function MonthItem({monthData}) {
     <>
       <li>
         <div className='singleMonth'>
-          <div className='emissionInfo'>{monthData.country}</div>
+          <div className='emissionInfo'>{monthData.monthTag}</div>
           <div className='emissionInfo'>{monthlyTotal}</div>
           <div className='emissionInfo'>{offsetSuggestion} trees</div>
         </div>

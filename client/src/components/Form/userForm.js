@@ -15,6 +15,7 @@ export function UserForm({ setCardsList }) {
     Usa: 4.700
   };
   //Output figures--displayed on child component
+  const [qMonth, setQMonth] = useState ('');
   const [qPeople, setQPeople] = useState (0);
   const [qCountry, setQCountry] = useState ('');
   const [qElectricity, setQElectricity] = useState (0);
@@ -31,13 +32,14 @@ export function UserForm({ setCardsList }) {
     ev.preventDefault();
     //form inputs
     //const people = parseInt(ev.target.userPeople.value);
+    const monthTag = ev.target.userMonth.value;
     const people = ev.target.userPeople.value;
     const country = ev.target.userCountry.value;
     const electricity = ev.target.userElectricity.value;
     const naturalGas = ev.target.userGas.value;
 
     //new obj from form
-    const newCard = {people, country, electricity, naturalGas, foodForecast, electricityForecast, gasForecast};
+    const newCard = {monthTag, people, country, electricity, naturalGas, foodForecast, electricityForecast, gasForecast};
     console.log('Print Test of form: ', newCard);//printing all form inputs as string
     // console.log('This is the type of people', typeof(newCard.people));//converted to number on line 10
     //fetch form data
@@ -57,6 +59,26 @@ export function UserForm({ setCardsList }) {
       <div className='formForecast-container'>
         <div className='form-container'>
           <form onSubmit={submitHandler}>
+          <div className='field-group'>
+              <label>
+                Month reference:<br></br>
+                <select className='formInfo' name='userMonth' onChange={e => setQMonth(e.target.value)}>
+                  <option value=""> -- select an option -- </option>
+                  <option value="Jan">Jan</option>
+                  <option value="Feb">Feb</option>
+                  <option value="Mar">Mar</option>
+                  <option value="Apr">Apr</option>
+                  <option value="May">May</option>
+                  <option value="Jun">Jun</option>
+                  <option value="Jul">Jul</option>
+                  <option value="Aug">Aug</option>
+                  <option value="Sep">Sep</option>
+                  <option value="Out">Out</option>
+                  <option value="Nov">Nov</option>
+                  <option value="Dec">Dec</option>
+                </select>
+              </label>
+            </div>
             <div className='field-group'>
               <label>
                 Quantity of people living with you:<br></br>
@@ -76,7 +98,6 @@ export function UserForm({ setCardsList }) {
                   <option value="Peru">Peru</option>
                   <option value="Usa">United States</option>
                 </select>
-
               </label>
             </div>
             <div className='field-group'>

@@ -8,6 +8,7 @@ const co2Schema = new mongoose.Schema({
   // accountEmail: String,
   // accountPassword: String,
   // form
+  monthTag: String,
   people: String,
   country: String,
   electricity: String,

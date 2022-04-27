@@ -6,6 +6,7 @@ const OffsetModel = require('../models/offsetting.js');
 const postEmissions = async (req, res) => {
   //the new object
   const newData = {
+    monthTag: req.body.monthTag,
     people: req.body.people,
     country: req.body.country,
     electricity: req.body.electricity,
