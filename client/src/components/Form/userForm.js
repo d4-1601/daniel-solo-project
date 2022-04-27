@@ -17,11 +17,14 @@ export function UserForm({ setCardsList }) {
   //Output figures--displayed on child component
   const [qPeople, setQPeople] = useState (0);
   const [qCountry, setQCountry] = useState ('');
-  let foodForecast = (Math.round(foodDiet[qCountry] * qPeople * 30)).toString(); //daily food figure per person* #people* 30 days per month
   const [qElectricity, setQElectricity] = useState (0);
   let electricityForecast = Math.round(qElectricity * 0.41205); //monthly figure
   const [qGas, setQGas] = useState (0);
   let gasForecast = Math.round(qGas * 0.184); //monthly figure
+  let foodForecast = 0;
+  if (foodDiet[qCountry] && qPeople) {
+    foodForecast = (Math.round(foodDiet[qCountry] * qPeople * 30)).toString(); //daily food figure per person* #people* 30 days per month
+  }
 
   //Fetch form
   const submitHandler = (ev) => {

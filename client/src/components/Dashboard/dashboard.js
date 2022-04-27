@@ -35,7 +35,6 @@ export function Dashboard() {
           <div className='navbar-container'>
             <div className='brand-container'>
               <NavLink to='/' style={{ textDecoration: 'none' }}>
-                {/* <h1 className='appTitle'>Ec</h1> */}
                 <span className='appTitle'>Ec</span>
                 <img className='appBrand' src={treeSvg} alt=''></img>
               </NavLink>

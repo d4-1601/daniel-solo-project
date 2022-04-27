@@ -7,7 +7,6 @@ export function MonthItem({monthData}) {
   const monthlyTotal = monthlyElectricity + monthlyGas + monthlyFood;
   const treeFigureMonthly = 13.92;
   const offsetSuggestion = Math.round(monthlyTotal / treeFigureMonthly);
-  //console.log('checking number', monthlyElectricity);
 
   return (
     <>
@@ -18,8 +17,6 @@ export function MonthItem({monthData}) {
           <div className='emissionInfo'>{offsetSuggestion} trees</div>
         </div>
       </li>
-
     </>
-
   )
 }
