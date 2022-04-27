@@ -8,18 +8,26 @@
 }
 
 .offsetOptions-container {
-  border: 4px solid red;
+  /* border: 4px solid red; */
   flex: 2;
   height: 512px;
-  background-color: white;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.projectsList-box {
+  border: 2px solid rgb(84, 86, 81);
+  /* box-sizing: border-box; */
+  width: 830px;
 }
 
 .emissionsBalance-container {
-  border: 4px solid blue;
+  /* border: 4px solid blue; */
   flex: 1;
   height: 512px;
+  margin-right: 10px;;
 }
 
+/* Emissions Balance */
 .emissionsTitle-box {
   color: rgb(84, 86, 81);
   font-family: 'Public Sans', sans-serif;
@@ -67,4 +75,74 @@
   justify-content: center;
   color: rgb(84, 86, 81);
   font-family: 'Public Sans', sans-serif;
+}
+
+/* Offset Projects List and Card */
+.projectsTitle-box {
+  color: rgb(84, 86, 81);
+  font-family: 'Public Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.listOfProjects {
+  display: flex;
+  flex-direction: row;
+  list-style:none;
+  padding: 6px;
+  gap: 10px;
+  overflow-x: scroll;
+  width: 100%;
+
+  /* hide the scroll bar */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* hide the scroll bar */
+.listOfProjects::-webkit-scrollbar { /* Chrome */
+  display: none;
+}
+.singleProject {
+  border-radius: 20px;
+  width: 400px;
+  margin: 10px 0;
+  padding: 3px;
+  box-sizing: border-box;
+  cursor: default;
+  float: left;
+  width: 50%;
+}
+.projectCard{
+  border: 2px solid white;
+  /* background: white; */
+  border-radius: 50px 50px;
+  width: 300px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.countryImage {
+  width: 250px;
+  height: auto;
+  border-radius: 20px 20px;
+  /* cursor: grab; */
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(84, 86, 81);
+  font-family: 'Public Sans', sans-serif;
+}
+.siteLink a {
+  text-decoration: none;
+  color: rgb(84, 86, 81);
+}
+.siteLink a:hover {
+  color: rgb(132, 179, 64);
 }

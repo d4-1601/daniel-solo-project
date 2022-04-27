@@ -3,7 +3,6 @@ import React from 'react'
 export function ProjectItem({projectData}) {
   return (
     <>
-      <div>projectItem</div>
       <li>
         <div className='singleProject'>
           <div className='projectCard'>

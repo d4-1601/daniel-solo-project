@@ -9,15 +9,15 @@ export function NeutralizePg({ cardsList, projectsList }) {
     <div className='offsetContent-container'>
       <div className='offsetOptions-container'>
         <div className='projectsTitle-box'>
-            <span>Offsetting Options</span>
-          </div>
-          <div className='projectsList-box'>
-            <ul className='listOfProjects'>
-              {projectsList.map((projectData) => {
-                return <ProjectItem key={projectData._id} projectData={projectData}></ProjectItem>
-              })}
-            </ul>
-          </div>
+          <span>Offsetting Options</span>
+        </div>
+        <div className='projectsList-box'>
+          <ul className='listOfProjects'>
+            {projectsList.map((projectData) => {
+              return <ProjectItem key={projectData._id} projectData={projectData}></ProjectItem>
+            })}
+          </ul>
+        </div>
       </div>
       <div className='emissionsBalance-container'>
         <div className='emissionsTitle-box'>
