@@ -1,10 +1,11 @@
-# daniel-solo-project
-Codeworks solo project
+# npm i to install server dependencies and npm i in the client folder to install client dependencies
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-# How App Should Work
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-## Usage
-1. User logs and is redirected to the profile page where it's possible to set the household information.
-2. The user add his/her lifestyle data, and a tag name to identify the period of the data entry. The transport figures would come from googlemaps app, but in this case, I'm using mock data.
-3. After submitting the data, by clicking on submit button, the user is redirected to the tracker page to see previous submissions and what was neutralized.
-4. Then, the user can choose one of the options to neutralize their carbon emissions for that period.
+# npm run server in the root folder to start the server npm start in the client folder to start the client.
+Open http://localhost:3000 to view it in your browser.
+
+# npm run data:import to run the data seeder and npm run data:destroy -D to destroy the data.
